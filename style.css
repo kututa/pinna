@@ -1,0 +1,68 @@
+.shadow-pink {
+    box-shadow: 0 2px 8px rgba(224, 9, 45, 0.5);
+  }
+
+  
+  section.py-5 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+    
+
+  #top-scroll-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  #top-scroll-button {
+    display: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  #top-scroll-button:hover {
+    background-color: #555;
+  }
+  
+  #top-scroll-button.active {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #top-scroll-bar {
+      /* display: none; */
+    }
+  }
+  
+
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: black !important;
+  }
+
+h1{color: darkblue;}  
+
+
+.card-title{color: rgb(26, 190, 254);}
+
+h2{color: blue;}
+
+h4{color: slateblue;}
+
+.color{color: dodgerblue;}
+
+.me-4{
+  padding: 10px;
+  font-size: large;
+}
